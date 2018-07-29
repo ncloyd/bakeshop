@@ -1,0 +1,22 @@
+.jumbotron h1 {
+	color: teal;
+}
+
+.jumbotron {
+    background-color: purple;
+    margin: 0 auto;
+}
+
+body {
+    color: azure;
+    font-size: 1.1em;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+.menuitems {
+    font-size: 15px;
+}
