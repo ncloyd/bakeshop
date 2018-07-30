@@ -20,3 +20,8 @@ body {
 .menuitems {
     font-size: 15px;
 }
+
+.cupcake {
+    width: 100%;
+    margin: 0 auto;
+}
