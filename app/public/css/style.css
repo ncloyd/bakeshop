@@ -1,3 +1,28 @@
+.navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.name{
+    height: 60px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.menuitems {
+    font-size: 15px;
+    background-color: #f8f8f8;
+    display: inline-block;
+}
+
 .jumbotron h1 {
 	color: teal;
 }
@@ -10,15 +35,6 @@
 body {
     color: azure;
     font-size: 1.1em;
-}
-
-.navbar {
-    border-radius: 0px;
-    margin: 0 auto;
-}
-
-.menuitems {
-    font-size: 15px;
 }
 
 .cupcake {
@@ -57,3 +73,27 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.content h1 {
+    font-size: 90px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    color: #fc84af;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Unica One', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Sacramento', cursive; */
