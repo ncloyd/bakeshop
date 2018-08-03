@@ -1,26 +1,25 @@
+.navbar {
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 66px;
+}
+
+.container-fluid{
+    margin: 0 auto;
+    padding: 8px;
+}
+
 .navbar-brand{
     font-family: 'Sacramento', cursive;
     font-size: 30px;
-    margin: 0 auto;
-    padding-top: 24px;
-}
-
-.name{
-    height: 60px;
-}
-
-.navbar {
-    border-radius: 0px;
-}
-
-.navbar-default {
-    border: none;
 }
 
 .menuitems {
     font-size: 15px;
     background-color: #f8f8f8;
-    display: inline-block;
 }
 
 .jumbotron h1 {
@@ -30,11 +29,6 @@
 .jumbotron {
     background-color: purple;
     margin: 0 auto;
-}
-
-body {
-    color: azure;
-    font-size: 1.1em;
 }
 
 .cupcake {
@@ -48,7 +42,6 @@ body {
     margin: 0 auto;
     padding: 40px;
 }
-
 
 .parallax__container {
     position: absolute;
