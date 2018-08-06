@@ -63,16 +63,12 @@
     margin: 0 auto;
 }
 
-.block{
-    max-width: 1000px;
-}
-
 .ccakes, .cakes{
     color: #fc84af;
     font-size: 90px;
     font-family: 'Lobster Two', cursive;
     margin: auto;
-    margin-top: 10px;
+    margin-top: -200px;
     text-shadow: 0 0 7px rgba(0, 0, 0, .8);
 }
 
@@ -103,7 +99,7 @@
 }
 
 .container--tiny {
-    height: 100px;
+    height: 300px;
     background-color: #e8c5da;
 }
 
@@ -116,7 +112,12 @@
     color: #ffffff;
 }
 
-
+.block{
+    max-width: 1000px;
+}
+.block2{
+    max-width: 1250px;
+}
 .crop{
     height: 200px;
     width: 200px;
@@ -124,6 +125,14 @@
     display: inline-block;
     margin: 5px;
 }
+.crop2{
+    height: 320px;
+    width: 220px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+}
+
 .fit2{
     height:100%;
 }
