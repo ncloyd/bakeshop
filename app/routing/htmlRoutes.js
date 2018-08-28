@@ -15,7 +15,10 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname, "/../public/cookies.html"));
 	});
 
-//default to home if no route exists
+	app.get("/", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/home.html"));
+	});
+
 	app.get("/home", function(req, res) {
 		res.sendFile(path.join(__dirname, "/../public/home.html"));
 	});
