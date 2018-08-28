@@ -179,6 +179,11 @@
     line-height: 1.5;
 }
 
+.contact{
+    text-align: center;
+    margin: 0 auto;
+}
+
 .smallimg {
 	height: 75px;
 	width: 75px;
