@@ -6,6 +6,7 @@
     margin: 0 auto;
     height: 66px;
     top: 0;
+    position: sticky;
 }
 
 .container-fluid{
@@ -63,13 +64,24 @@
     margin: 0 auto;
 }
 
-.ccakes, .cakes{
-    color: #fc84af;
+.title {
     font-size: 90px;
     font-family: 'Lobster Two', cursive;
     margin: auto;
     margin-top: -200px;
     text-shadow: 0 0 7px rgba(0, 0, 0, .8);
+}
+
+.ccakes {
+    color: #fc84af;
+}
+
+.cakes {
+    color:#00acc8;
+}
+
+.cookies {
+    color: #f5e452;
 }
 
 .container{
@@ -116,7 +128,7 @@
     max-width: 1000px;
 }
 .block2{
-    max-width: 1250px;
+    max-width: 880px;
 }
 .crop{
     height: 200px;
@@ -156,7 +168,10 @@
     vertical-align: middle;
   }
 
-
+.photo{
+    text-align: left;
+    line-height: 10px;
+}
 
 /* font-family: 'Lobster Two', cursive;
 font-family: 'Unica One', cursive;
