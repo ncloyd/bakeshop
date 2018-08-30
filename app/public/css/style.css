@@ -170,13 +170,13 @@
   }
 
 .photo{
-    text-align: left;
-    line-height: 10px;
     margin: 0 auto;
+    text-align: center;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     max-width: 400px;
     line-height: 1.5;
+    padding-right: 20px;
 }
 
 .contact{
@@ -194,6 +194,7 @@
     font-size: 40px;
     color: black;
     font-family: 'Lobster Two', cursive;
+    margin: 0 auto;
 }
 
 a {
@@ -207,6 +208,12 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
+
+@media only screen and (max-width : 615px) {
+    .container--tiny {
+      height: 300px;
+    }
+  }
 
 /* font-family: 'Lobster Two', cursive;
 font-family: 'Unica One', cursive;
