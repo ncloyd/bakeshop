@@ -10,6 +10,14 @@
     z-index: 500;
 }
 
+.navbar-nav {
+    margin-top: 0;
+}
+
+.navbar-brand{
+    margin-top: 2px;
+}
+
 .container-fluid{
     margin: 0 auto;
     padding: 8px;
@@ -111,6 +119,10 @@
     height: 300px;
 }
 
+.container--middle {
+    height: 400px;
+}
+
 .container--tiny {
     height: 200px;
     background-color: #e8c5da;
@@ -123,6 +135,14 @@
 .middle{
     background-color: #9a9aefd9;
     color: #ffffff;
+}
+
+.orange{
+    background-color:#feb037;
+}
+
+.blue{
+    background-color: #6494f1;
 }
 
 .block{
